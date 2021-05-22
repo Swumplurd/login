@@ -4,7 +4,7 @@
             $servidor = 'localhost';
             $usuario = 'root';
             $password = '';
-            $bd = 'login';
+            $bd = 'usuarios';
 
             return $conexion = mysqli_connect($servidor, $usuario, $password, $bd);
         }
